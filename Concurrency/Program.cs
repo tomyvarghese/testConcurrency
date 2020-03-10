@@ -11,7 +11,7 @@ namespace Concurrency
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey do read these messages from our sponsors!! and click any key!");
+            Console.WriteLine("Hey again do read these messages from our sponsors!! and click any key!");
             Console.ReadLine();
             DateTime t1 = DateTime.Now;
             PrintPrimaryNumbers();
