@@ -11,9 +11,6 @@ namespace Concurrency
     {
         static void Main(string[] args)
         {
-            //adding a comment
-            //adding another comment....
-            
             Console.WriteLine("Hey again do read these messages from our sponsors!! and click any key!");
             Console.ReadLine();
             DateTime t1 = DateTime.Now;
@@ -28,7 +25,6 @@ namespace Concurrency
             Console.WriteLine("Any Key to terminate!!");
             Console.ReadLine();
 
-            //End
         }
 
         private static async void PrintPrimaryNumbersAsync()
