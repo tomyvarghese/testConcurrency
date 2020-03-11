@@ -27,6 +27,8 @@ namespace Concurrency
             Console.WriteLine(string.Format("It took {0} for the sync call and {1} for the Async one", ts1, ts2));
             Console.WriteLine("Any Key to terminate!!");
             Console.ReadLine();
+
+            //End
         }
 
         private static async void PrintPrimaryNumbersAsync()
