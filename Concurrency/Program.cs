@@ -11,7 +11,7 @@ namespace Concurrency
     {
         static void Main(string[] args)
         {
-            //my comment from a VM 
+            //my comment from a VM 2 
             DateTime t1 = DateTime.Now;
             PrintPrimaryNumbers();
             var ts1 = DateTime.Now.Subtract(t1);
