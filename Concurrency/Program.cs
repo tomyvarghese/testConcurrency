@@ -11,8 +11,8 @@ namespace Concurrency
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey again do read these messages from our sponsors!! and click any key!");
-            Console.ReadLine();
+            //Console.WriteLine("Hey again do read these messages from our sponsors!! and click any key!");
+            //Console.ReadLine();
             DateTime t1 = DateTime.Now;
             PrintPrimaryNumbers();
             var ts1 = DateTime.Now.Subtract(t1);
@@ -21,9 +21,9 @@ namespace Concurrency
             PrintPrimaryNumbersAsync();
             var ts2 = DateTime.Now.Subtract(t2);
 
-            Console.WriteLine(string.Format("It took {0} for the sync call and {1} for the Async one", ts1, ts2));
-            Console.WriteLine("Any Key to terminate!!");
-            Console.ReadLine();
+            //Console.WriteLine(string.Format("It took {0} for the sync call and {1} for the Async one", ts1, ts2));
+            //Console.WriteLine("Any Key to terminate!!");
+            //Console.ReadLine();
          }
 
         private static async void PrintPrimaryNumbersAsync()
